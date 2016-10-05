@@ -1,0 +1,12 @@
+stringc: str.c
+        gcc str.c -o stringc
+
+clean:
+        rm *~
+
+run: stringc
+        ./stringc
+
+
+
+
